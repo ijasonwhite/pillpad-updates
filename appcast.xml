@@ -4,5 +4,34 @@
     <title>PillPad</title>
     <language>en</language>
     <!-- ITEMS -->
+    <item>
+      <title>PillPad 0.1.0</title>
+      <pubDate>Thu, 10 Sep 2026 16:43:48 +0100</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+### Added
+- **First release of PillPad.** A native macOS diagramming whiteboard for
+  sketching how a business fits together: pills you name after people,
+  groups you label as departments, and flows that show who reports to whom.
+- **Pills, groups, flows, shapes and text.** Drop a pill and type its name,
+  draw a boundary around a cluster and label it, pull a flow from one pill's
+  edge to another (or to a whole department) and label the line. Rectangles,
+  ellipses, diamonds, lines and free text cover everything that isn't an org
+  chart.
+- **Everything is undoable.** Moves, resizes, recolours, grouping, deleting —
+  ⌘Z steps back through all of it, and your document autosaves as you work.
+- **Start from a template.** Choose Blank, Org Structure or Process Flow when
+  you create a document; each card shows a live preview of what you'll get.
+- **Export for the deck.** Save the canvas as a crisp PNG or a PDF with real
+  text, ready to drop into a slide or an email after the meeting.
+- **Your files are yours.** A `.pillpad` document is plain JSON you can keep
+  in iCloud Drive, Dropbox or a git repo, and open with Open Recent like any
+  other Mac document.
+- **Auto-updates.** PillPad checks for new versions on its own and installs
+  them in one click.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/pillpad-updates/releases/download/v0.1.0/PillPad-0.1.0.zip" sparkle:edSignature="UqEebeXmofxDip1vVzbyK09eueJf5x1fJ3LpN0ThABCFcRwQO427okyClY6jVcbUCwLtPYD7nBkQlMIH8CRpCg==" length="4139988" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
