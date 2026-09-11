@@ -5,6 +5,39 @@
     <language>en</language>
     <!-- ITEMS -->
     <item>
+      <title>PillPad 0.1.1</title>
+      <pubDate>Fri, 11 Sep 2026 13:15:16 +0100</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+### Fixed
+- **Revert keeps your work.** Reverting to the saved version (or browsing
+  earlier versions) now shows the reverted canvas, and edits you make
+  afterwards are saved to the file as expected.
+- **Group and Ungroup shortcuts work.** ⌘G and ⇧⌘G do what the menu says.
+- **Drag a group by its outline.** Grabbing a group's boundary moves the
+  whole group, members and all. Drawing a flow from a pill's edge is
+  unchanged.
+- **The template chooser gets out of the way.** Opening a document from the
+  Finder, Open Recent or the Open panel dismisses the chooser.
+- **Cleaner undo.** Colour and slider changes in the inspector no longer
+  tangle with the step that follows them, and pressing Undo mid-drag lets go
+  of the drag cleanly.
+- **Big diagrams stay responsive.** Zoom to Fit on a canvas with a far-off
+  element no longer hangs, and PNG export of a very spread-out canvas keeps
+  the image to a sensible size.
+
+### Added
+- **Source view.** Switch any document between Design and Source to edit the
+  canvas as live JSON; each burst of typing is one undo step, and a typo
+  keeps the last good canvas on screen with a clear message.
+- **LLM instructions.** Help ▸ LLM Instructions… (or `PillPad --instructions`)
+  gives a chat model the .pillpad format so it can draft diagrams for you;
+  `PillPad --open file.pillpad` checks a file and opens it.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/pillpad-updates/releases/download/v0.1.1/PillPad-0.1.1.zip" sparkle:edSignature="dUnIbezkVeu1iyi5oQEM6p6QZHHuZldjgGdMc4a389i3vQq7w+5S7rtgFm6NWGwGsjsZ40OCWkVgKxkUgT9LBw==" length="4214072" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>PillPad 0.1.0</title>
       <pubDate>Thu, 10 Sep 2026 16:43:48 +0100</pubDate>
       <sparkle:version>1</sparkle:version>
